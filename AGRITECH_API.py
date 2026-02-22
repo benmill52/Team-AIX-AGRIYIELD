@@ -53,4 +53,4 @@ def get_prediction(data: CropInput):
 # Run the API (dev mode)
 # -----------------------------
 if __name__ == "__main__":
-    uvicorn.run("AGRITECH_API:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("AGRITECH_API:app", host="0.0.0.0", port=8000)  # no reload=True
